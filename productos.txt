@@ -1,0 +1,10 @@
+Manzana:1500
+Pan:3000
+Leche:2000
+Arroz:2300
+Huevos:600
+Azucar:2500
+Queso:3300
+Pollo:4600
+Pasta:1400
+Aceite:2500

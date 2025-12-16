@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productos</title>
+    <script src="js/productos.js"></script>
+</head>
+<body onload="cargarProductos()">
+    <table align="center" width="500px">
+            <tr>
+                <td>productos</td>
+                <td>
+                    <select name="productos" id="productos"></select>
+                </td>
+            </tr>
+            <tr>
+                <td>cantidad</td>
+                <td>
+                    <input type="number" name="cantidad" id="cantidad">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="button" onclick="calcularPago();" id="agregar">Calcular Precio</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <span id="resultado">$0</span>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    
+</body>
+</html>
