@@ -22,6 +22,11 @@ function getOpciones(cadena) {
 function calcularPago() {
     var productoSelect = document.getElementById("productos").value;
     var cantidad = document.getElementById("cantidad").value;
+    if (cantidad<1){
+       alert("la cantidad no puede ser negativa");
+       document.getElementById("resultado").innerText = "$0";
+       return;
+    }
     var pagoTotal = productoSelect * cantidad;
     document.getElementById("resultado").innerText = "El pago total es: $" + pagoTotal.toFixed(2);
 }
