@@ -1,0 +1,6 @@
+A001;Proteina;150000
+A002;set de mancuernas;234000
+A003;power bands;18900
+A004;cuerda para saltar;27600
+A005;soporte para discos;1999900
+A006;rodillo de espuma;40900

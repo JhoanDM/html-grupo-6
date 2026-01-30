@@ -7,6 +7,7 @@ function obtenerDivisores(numero) {
         if (numero % i === 0) {
             divisores.push(i);
         }
+
     }
 
    return divisores;
@@ -28,5 +29,9 @@ function mostrarDivisores() {
     document.getElementById("resultado").innerHTML =
     "Divisores de " + n1 + ": " + div1.join(", ") + "<br>" + 
     "Divisores de " + n2 + ": " + div2.join(", ");
+
+
+
+    
     
 }
