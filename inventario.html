@@ -1,4 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario</title>
 
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid rgb(0, 67, 168);
+            padding: 6px;
+            text-align: center;
+        }
+        input, select {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        tfoot td {
+            font-weight: bold;
+        }
+        button {
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Inventario ADSO :D</h2>
+
+    <button onclick="agregarFila()">+</button>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>codigo</th>
+                <th>nombre</th>
+                <th>Valor Unitario</th>
+                <th>cantidad</th>
+                <th>Subtotal</th>
+                <th>eliminar fila</th>
+            </tr>
+        </thead>
+
+        <tbody id="tabla">
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Total</td>
+                <td id="total">$0</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script src="js/inventario.js"></script>
+</body>
+</html>
 
 
 
