@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/069/750/492/small/seamless-skull-pattern-in-black-and-white-with-bold-outlines-and-hand-drawn-style-perfect-for-halloween-gothic-decor-spooky-design-for-background-wallpaper-print-fabric-vector.jpg);
+}
+
+header {
+    background: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+header img {
+    margin-right: 400px;
+    width: 280px;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    min-height: 70vh;
+}
+
+nav {
+    background: black;
+    color: white;
+    padding: 15px;
+    font-size: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    padding: 8px 0;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 15px;
+    justify-items: center;
+    align-items: center;
+}
+
+section img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+    border-radius: 35px;
+}
+
+aside {
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+aside input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
+aside button {
+    width: 100%;
+    padding: 8px;
+    background: white;
+    color: black;
+    border: none;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
